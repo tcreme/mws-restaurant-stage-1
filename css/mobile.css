@@ -1,0 +1,17 @@
+/* small devices */
+/* ====================== Navigation ====================== */
+@media only screen and (max-width: 767px) and (min-width:360px) {
+  nav {
+    
+  }
+/* ====================== Map ====================== */
+@media only screen and (max-width: 767px) and (min-width:360px) {
+#map {
+  display: flex;
+}
+
+/* ====================== Restaurant Filtering ====================== */
+@media only screen and (max-width: 767px) and (min-width:360px) {
+.filter-options {
+  width: 75%;
+}
