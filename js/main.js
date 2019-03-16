@@ -4,10 +4,10 @@ let restaurants,
 var newMap
 var markers = []
 
-// Register service worker
+// Register service worker here
 
   if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/index.js/')
+      navigator.serviceWorker.register('./index.js')
       .then(function(reg) {
         // registration worked
         console.log ('Registration succeeded. Scope is ' + reg.scope);
