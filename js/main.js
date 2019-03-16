@@ -6,12 +6,17 @@ var markers = []
 
 // Register service worker
 
-  if (!navigator.serviceWorker) {
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw-test/index.js/', {scope: '/sw-test/'})
+      .then(function(reg) {
+        // registration worked
+        console.log ('Registration succeeded. Scope is ' + reg.scope);
+      }).catch(function(error) {
+        // registration failed
+      console.log('Registration failed with ' + error);
+      })
+    };
 
-    navigator.serviceWorker.register('/sw.js').then(function() {
-      console.log('registered!')
-    });
-  };
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
