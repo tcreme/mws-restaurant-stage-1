@@ -7,7 +7,7 @@ var markers = []
 // Register service worker
 
   if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw-test/index.js/', {scope: '/sw-test/'})
+      navigator.serviceWorker.register('/index.js/')
       .then(function(reg) {
         // registration worked
         console.log ('Registration succeeded. Scope is ' + reg.scope);
@@ -174,6 +174,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = "picture of restaurant"
   li.append(image);
 
   const name = document.createElement('h1');
