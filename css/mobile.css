@@ -1,3 +1,21 @@
+/* For mobile */
+@media only screen and (max-width: 600px) {
+h2 {
+  text-align: center;
+}
+/* ====================== Restaurant Listing ====================== */
+@media only screen and (max-width: 600px) {
+#restaurant-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+#restaurant-img {
+  width: 75%;
+  align-self: center;
+  margin-bottom: 5px;
+}
 @media only screen and (max-width: 600px) {
 #restaurants-list {
   height: auto;
@@ -6,17 +24,26 @@
   margin-left: 0px;
   margin-right: 25px;
 }
-@media only screen and (max-width: 600px) {
-#restaurant-container {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
-}
+/* ====================== Restaurant Details ====================== */
 @media only screen and (max-width: 600px) {
 #reviews-container {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+.inside #map-container {
+  width: 360px;
+  height: 300px;
+  position: absolute;
+}
+@media only screen and (max-width: 600px) {
+#restaurant-name {
+  margin-top: 250px;
+}
+@media only screen and (max-width: 600px) {
+#restaurant-hours td {
+  padding-left: 15px;
 }
 @media only screen and (max-width: 600px) {
 .inside #footer {
@@ -27,22 +54,7 @@
   padding-bottom: 25px;
   position: absolute;
 }
-@media only screen and (max-width: 600px) {
-#restaurant-hours td {
-  padding-left: 15px;
-}
-@media only screen and (max-width: 600px) {
-#restaurant-img {
-  width: 75%;
-  align-self: center;
-  margin-bottom: 5px;
-}
-@media only screen and (max-width: 600px) {
-.inside #map-container {
-  width: 360px;
-  height: 300px;
-  position: absolute;
-}
+/* ====================== Navigation ====================== */
 @media only screen and (max-width: 600px) {
 #breadcrumb {
   width: 100%;
@@ -54,12 +66,4 @@
 @media only screen and (max-width: 600px) {
 nav {
   height: 60px;
-}
-@media only screen and (max-width: 600px) {
-#restaurant-name {
-  margin-top: 250px;
-}
-@media only screen and (max-width: 600px) {
-h2 {
-  text-align: center;
 }

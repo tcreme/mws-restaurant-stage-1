@@ -1,15 +1,12 @@
+/* For tablet */
+@media only screen and (min-width: 601px) {
+h2 {
+  text-align: center;
+}
+/* ====================== Restaurant Details ====================== */
 @media only screen and (min-width: 601px) {
 #reviews-container {
   padding-top: 15px;
-}
-@media only screen and (min-width: 601px) {
-.inside #footer {
-  width: 95%;
-  padding-left: 15px;
-  padding-right: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  position: absolute;
 }
 @media only screen and (min-width: 601px) {
 #restaurant-hours td {
@@ -20,6 +17,11 @@
   padding-left: 25px;
 }
 @media only screen and (min-width: 601px) {
-h2 {
-  text-align: center;
+.inside #footer {
+  width: 95%;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: absolute;
 }
