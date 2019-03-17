@@ -21,7 +21,9 @@
                 './img/7.jpg',
                 './img/8.jpg',
                 './img/9.jpg',
-                './img/10.jpg'
+                './img/10.jpg',
+                'https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js',
+                'https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css'
               ]);
           })
       );
