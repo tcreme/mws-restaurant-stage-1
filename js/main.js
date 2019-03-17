@@ -213,6 +213,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 
 }
+
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
