@@ -31,7 +31,7 @@ a img{
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
-	width: 100%;
+	width: 90%;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -138,7 +138,7 @@ i {
 #restaurants-list {
   background-color: #f3f3f3;
   list-style: outside none none;
-  margin: 25px;
+  margin: 20px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;

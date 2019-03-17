@@ -10,7 +10,7 @@ class DBHelper {
   static get DATABASE_URL() {
     // const port = '8000/Documents/GitHub/project5/restaurantReviews/'; // Change this to your server port
     const port = 8000 // Change this to your server port
-    return `http://localhost:${port}/Documents/GitHub/project5/restaurantReviews/data/restaurants.json`;
+    return `http://localhost:${port}/Documents/GitHub/project5/mws-restaurant-stage-1-master/data/restaurants.json`;
   }
 
   /**
