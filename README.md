@@ -24,7 +24,7 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 ## Starter Code
 
-Click on the green "Clone or Download" button. To clone the project, select "Open in Desktop". To download the Restaurant Reviews folder, select "Download ZIP". If Restaurant Reviews folder was cloned, to view in Atom IDE select repository tab and click "open in Atom". If "Download ZIP" was selected, go to the download location and open the folder using desired IDE.
+Click on the green "Clone or Download" button. To clone the project, select "Open in Desktop." To download the Restaurant Reviews folder, select "Download ZIP." If cloned, to view Restaurant Reviews folder in Atom IDE select repository tab and click "open in Atom." If "Download ZIP" was selected, go to the download location and open the folder using the desired IDE.
 
 ## Instructions
 
@@ -42,7 +42,7 @@ What do I do from here?
 
 ### Python
 
-Python is used to set up a simple HTTP server
+Python is used to set up a simple HTTP server.
 
 ### Leaflet.js and Mapbox:
 
